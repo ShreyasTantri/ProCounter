@@ -11,7 +11,7 @@ import SwiftUI
 struct ProCounterApp: App {
     var body: some Scene {
         WindowGroup {
-            CounterView()
+            AppTabView()
         }
     }
 }
