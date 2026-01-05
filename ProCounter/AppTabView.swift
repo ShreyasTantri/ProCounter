@@ -13,14 +13,17 @@ struct AppTabView: View {
             Tab("Counter", systemImage: "arrow.counterclockwise") {
                 CounterView()
             }
-
+            
             Tab("Profile", systemImage: "person.crop.circle") {
                 ProfileView()
             }
             
+            Tab("Settings", systemImage: "gearshape") {
+                
             }
         }
     }
+}
 
 #Preview {
     AppTabView()
